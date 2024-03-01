@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox2</title>
+    <style>
+
+    .container
+
+    {
+
+        width: 600px;
+        height: 600px;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: row;
+        /* justify-content:center; */
+        align-items: center;
+        /* flex-wrap: wrap; */
+        /* align-content:flex-start; */
+      
+
+    }
+
+
+
+    .container div{
+
+        height: 100px;
+        width: 100px;
+        border: 2px solid black;
+       
+    }
+
+
+
+ 
+    
+   
+      
+    
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div id="a" style="background-color: green; align-self: flex-end;"></div>
+        <div id="b" style="background-color: yellow; flex-basis: 200px;"></div>
+        <div id="c" style="background-color: blue;flex-grow: 1;"></div>
+        <div id="d" style="background-color: black;flex-shrink: 2;"></div>
+
+    </div>
+
+
+</body>
+</html>
