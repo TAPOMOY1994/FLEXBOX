@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX7</title>
+
+    <style>
+
+     body 
+
+     {
+        background-color: green;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 260px;
+        font-family: Poppins,sans-serif;
+     }
+
+     label
+
+     {
+
+        color: white;
+     }
+
+     #username
+     {
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 10px 0;
+     }
+
+     button 
+     {
+
+        color: white;
+        background-color: blue;
+        margin: 10px 0;
+        border-radius: 10px;
+     }
+
+     
+    a
+    {
+      color: white;
+      text-decoration: none;
+
+    }
+
+
+    #select
+    {
+
+      margin: 10px 0;
+    }
+
+    a:hover
+
+    {
+        text-decoration: underline;
+    }
+
+     
+    </style>
+</head>
+<body>
+    
+    <form action="">
+    <label for="select">Log in to continue.</label>
+     <div>
+    <select id="select" name="select">
+        
+        <option value="Australia">Australia</option>
+        <option value="US">US</option>
+        <option value="Canada">Canada</option>
+        <option value="Europe">Europe</option>
+        <option value="Asia Pacific">Asia Pacific</option>
+    
+    </select>
+</div>
+    <label for="username">Email</label>
+    <div>
+    <input type="email" id="username">
+</div>
+
+<div><button>Continue</button></div>
+
+<a href="https://edstem.org/au/forgot-password">Forgot password?</a>
+
+</form>
+
+</body>
+</html>
