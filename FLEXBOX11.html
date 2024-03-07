@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX11</title>
+    <style>
+
+    body
+
+    {
+       background-color: beige;
+       display: flex;
+       justify-content: center;
+       font-family: Poppins,sans-serif;
+
+    }
+
+   .container
+
+   {
+
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 100px;  
+    right: 100px;
+    justify-content: space-evenly;
+   }
+   
+h1
+
+{
+  position: relative;
+  left: 310px;
+
+}
+
+label
+
+
+
+{
+
+  margin-left: 10px;
+}
+
+
+
+#username
+
+{
+  height: 20px;
+  width: 380px;
+
+  
+}
+
+#email
+
+{
+  height: 20px;
+  width: 380px;
+
+}
+
+#age
+
+{
+  height: 20px;
+  width: 380px;
+}
+
+#select
+
+{
+  height: 20px;
+  width: 380px;
+}
+
+#suggestions
+{
+
+  height: 20px;
+  width: 380px;
+}
+
+button
+
+
+{
+  background-color: green;
+  color: black;
+  height: 20px;
+  width: 350px;
+  margin-left: 25px;
+}
+
+    </style>
+</head>
+<body>
+    <h1>Geeks for Geeks Survey Form</h1>
+    
+    <form action="">
+       <div class="container">
+
+        <label for="username">Name</label>
+        <div>
+        <input type="text" id="username" placeholder="Enter your name">
+    </div>
+         <label for="email">Email</label>
+         <div>
+         <input type="email" id="email" placeholder="Enter your email">
+        </div>
+
+        <label for="age">Age</label>
+        <div>
+        <input type="number" id="age" placeholder="Enter your age">
+    </div>
+
+         <label for="select">Which option best describes you?</label>
+         <div>
+         <select id="select" name="dropdown">
+           <option value="Student">Student</option>
+           <option value="Working Professional">Working Professional</option>
+         </select> 
+
+         </div>
+
+          <label for="rad">Would you recommend Geeks for Geeks to a friend?</label>
+          <div>
+          <input type="radio" name="radio" id="radio" value="Yes">
+          <label for="radio">Yes</label>
+        </div>
+        
+        <div>
+          <input type="radio" name="radio" id="radio1"value="No">
+          <label for="radio1">No</label>
+        </div>
+        <div>
+          <input type="radio" name="radio"id="radio2" value="Maybe">
+          <label for="radio2">Maybe</label>
+        </div>
+
+        <label for="suggestions">Any comments or suggestions</label>
+        <div>
+        <input type="text" id="suggestions" >
+      </div>
+        <button>Submit</button>
+
+    </div>
+       
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+</body>
+</html>
