@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX8</title>
+    <style>
+
+   body
+   {
+    display: flex;
+   
+    justify-content: flex-end;
+   }
+
+
+.abc
+
+{
+    position: relative;
+    right: 1300px;
+}
+
+
+.xyz
+{
+    position: relative;
+    right: 1300px;
+}
+
+
+
+button
+
+{
+   position: relative;
+   right: 600px;
+
+}
+
+
+@media (max-width:1000px)
+{
+    body
+    {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <form action="">
+
+        <label for="username" class="xyz">Enter Username</label>
+        <div>
+        <input id="username" class="abc"type="text" placeholder="Username">
+    </div>
+        <label for="password" >Enter Password</label>
+        <div>
+        <input id="password" type="password" placeholder="Password">
+    </div>
+        <label for="number" class="xyz">Enter Number</label>
+        <div>
+        <input id="number"class="abc" type="number" placeholder="Number">
+    </div>
+        <label for="email">Enter Email Address</label>
+        <div>
+        <input id="email" type="email" placeholder="Email Address">
+    </div>
+    
+        <button>Submit</button>
+    
+    
+    
+    </form>
+    
+
+
+</body>
+</html>
